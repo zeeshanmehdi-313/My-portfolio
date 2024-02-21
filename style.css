@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* header styling here */
+#header{
+    width: 100%;
+    height: 80px;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+.logo{
+    width: 50px;
+    height: 80px;
+    background-color: rgb(31, 31, 31);
+}
+.logo img{
+    margin-top: 8px;
+}
+.navlinks{
+    width: 950px;
+    height: 80px;
+    background-color:rgb(255, 231, 239);
+}
+.navlinks ul{
+   list-style-type: none;
+   margin: 0px;
+   padding: 0px;
+   margin-top: 20px;
+   margin-left: 40px;
+}
+.navlinks ul li{
+    display: inline;
+    margin-right: 20px;
+}
+.navlinks ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+.mail{
+    width: 350px;
+    height: 80px;
+    background-color: rgb(158, 69, 57);
+}
+.circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+}
+/* Hero-Section styling here */
+#hero-section{
+    width: 100%;
+    height: 670px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+.scroll{
+    width: 50px;
+    height: 610px;
+    background-color: rgb(31, 31, 31);
+}
+.intro{
+    width: 950px;
+    height: 610px;
+    background-color:rgb(255, 231, 239);
+}
+.self-intro{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 60px;
+}
+.self-intro span{
+   font-family: "static";
+   
+}
+.arrow{
+    width: 350px;
+    height: 610px;
+    background-color: rgb(158, 69, 57);
+}
+.social-links{
+    background-color: rgb(158, 69, 57);
+}
