@@ -8,6 +8,8 @@ body{
     height: 80px;
     margin: 0px;
     padding: 0px;
+    display: flex;
+    position: relative;
 }
 .navbar{
     width: 100%;
@@ -17,7 +19,7 @@ body{
     display: flex;
 }
 .logo{
-    width: 50px;
+    width: 4%;
     height: 80px;
     background-color: rgb(31, 31, 31);
 }
@@ -25,9 +27,10 @@ body{
     margin-top: 8px;
 }
 .navlinks{
-    width: 950px;
+    width: 75%;
     height: 80px;
     background-color:rgb(255, 231, 239);
+    position: relative;
 }
 div > ul{
    list-style-type: none;
@@ -49,11 +52,10 @@ div > ul{
 .mail {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     background-color:rgb(158, 69, 57);
     padding: 15px;
-    width: 320px;
-    
+    width: 25%;
+    position: relative;
   }
 
   .text {
@@ -102,33 +104,38 @@ div > ul{
     margin: 0px;
     padding: 0px;
     display: flex;
+    justify-content: flex-end;
     position: relative;
 }
 .scroll{
-    width: 50px;
+    width: 4%;
     height: 610px;
     background-color: rgb(31, 31, 31);
 }
 .intro{
-    width: 950px;
+    width: 71%;
     height: 610px;
+    position: relative;
     background-color:rgb(255, 231, 239);
 }
 .self-intro{
     text-align: center;
     margin-top: 30px;
     font-size: 60px;
-}
-
-  
+}  
 h1::first-line{
-   
     font-weight: 600;
     font-family: sans-serif;
 }
+.name{
+    float: left;
+    padding-left: 180px;
+    font-style: italic;
+}
 .arrow{
-    width: 350px;
+    width: 26%;
     height: 610px;
+    position: relative;
     background-color: rgb(158, 69, 57);
 }
 .social-links{
@@ -141,4 +148,58 @@ h1::first-line{
     width: 100%;
     height: 80px;
     text-align: center;
+}
+/* About me section styling here */
+#about-me{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    height: 550px;
+    display: flex;
+    background-color: rgb(31, 31, 31);
+}
+.about{
+    width: 50%;
+    height: 550px;
+   
+}
+.about > h2{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 35px;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+hr{
+    width: 50px;
+    color: #f6b25a;
+}
+h2 > span{
+    color: #f6b25a;
+}
+.about-text{
+    width: 50%;
+    height: 550px;
+    /* background-color: rgb(14, 200, 126); */
+}
+.para{
+    text-align: left;
+}
+.para > h3{
+    padding-top: 70px;
+    padding-left: 30px;
+    font-size: 23px;
+    font-family: sans-serif;
+    color: #ffffff;
+    line-height: 30px;
+}
+h3 ~ span{
+    font-family: 'Times New Roman', Times, serif;
+}
+h3 + p{
+    padding-left: 30px;
+    color: #898989;
+    font-family: sans-serif;
+    line-height: 22px;
+    font-size: 13px;
 }
